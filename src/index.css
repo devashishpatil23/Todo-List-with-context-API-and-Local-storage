@@ -1,0 +1,43 @@
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid;
+    width: max-content;
+    margin-top: 5rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form button {
+    margin-left: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.complete {
+    background: #e9ffd8;
+    text-decoration: line-through;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    margin-top: 0 !important;
+}
+
+.list-box input,
+.list-box input:focus,
+.list-box input:focus-visible {
+    border: none !important;
+    outline: none;
+}
+
+.list-box .input-outline,.list-box .input-outline:focus{
+    border: 1px solid #333 !important;
+}
